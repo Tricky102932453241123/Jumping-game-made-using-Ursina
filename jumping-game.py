@@ -89,10 +89,11 @@ for p in range(2):
       origin_y= 0.5,
       parent=scene
         )
-for n in range(15):
-      for k in range(15):
-        box = Button(
-      position=(k, 0, n),
+for z in range(0, -5):
+    for n in range(15):
+        for k in range(15):
+          box = Button(
+      position=(k, z, n),
       color=color.gray,
       highlight_color=color.lime,
       model='cube',
